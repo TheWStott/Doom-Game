@@ -51,7 +51,7 @@ public class Firing : MonoBehaviour {
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {  
         //Debug.Log("HIT!"+other.otherCollider.tag);
         Debug.Log("HIT!" + other.gameObject.tag);
